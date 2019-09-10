@@ -1,10 +1,9 @@
-
-#f= open("guru99.txt","w+")
-
+#no. of files you want to create
 filenum=int(input("How many path you want to create :"))
 
 files=[]
 
+#names of the files
 for i in range(filenum):
     fileex=input()
     files.append(fileex)
