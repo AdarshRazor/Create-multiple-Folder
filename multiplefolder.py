@@ -1,17 +1,21 @@
 import os
 import string
 
-#root_path = 'C:/Users/Adarsh/Dropbox/Project R.Y.U.N'
-#folders = ['Folder 1','Folder x','Folder y']
+#root_path = 'C:/Users/your directory  [ onyly  create at fixed place ]'
+#folders = ['Folder 1','Folder 2','Folder 3']
 
-path=os.getcwd()
+#take the current working directory
+path=os.getcwd() 
 
+#set the current working directory
 root_path=path
 
+#how many folder you wanted to make
 foldernum=int(input("How many path you want to create :"))
 
 folders=[]
 
+#folder naming
 for i in range(foldernum):
     folderex=input()
     folders.append(folderex)
